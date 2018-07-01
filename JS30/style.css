@@ -1,0 +1,330 @@
+/* Style Sheet for JS 30 Challange Collection */
+
+/* ======================= General ========================= */
+body {
+    width: 100%;
+    align-items: center;
+    line-height: 1.5;
+    letter-spacing: 0.3px;
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(248, 248, 248);
+}
+
+body,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    margin: 2.5em auto 0.5em auto;
+    max-width: 960px;
+}
+.big-wrapper {
+    /* margin: 2.5em auto; */
+    max-width: 1200px;
+}
+
+.wrapper,
+.big-wrapper,
+.main-intro,
+footer {
+    padding: 0 1em;
+}
+
+/* ======================= Intro ========================= */
+
+.main-intro h2 {
+    font-size: 1.4em;
+    font-weight: 300;
+    color: #181717;
+}
+
+#but-wait {
+    background-color: rgba(123, 53, 237, 0.95);
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    padding: 1px 7px;
+    opacity: 0.92;
+    margin-top: 1em;
+}
+
+.main-intro a {
+    text-decoration: none;
+    color: #7c35ee;
+}
+
+.twitter {
+    cursor: url("data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTI7IiB4bWw6c3BhY2U9InByZXNlcnZlIiB3aWR0aD0iMjRweCIgaGVpZ2h0PSIyNHB4Ij4KPHBhdGggc3R5bGU9ImZpbGw6IzAzQTlGNDsiIGQ9Ik01MTIsOTcuMjQ4Yy0xOS4wNCw4LjM1Mi0zOS4zMjgsMTMuODg4LTYwLjQ4LDE2LjU3NmMyMS43Ni0xMi45OTIsMzguMzY4LTMzLjQwOCw0Ni4xNzYtNTguMDE2ICBjLTIwLjI4OCwxMi4wOTYtNDIuNjg4LDIwLjY0LTY2LjU2LDI1LjQwOEM0MTEuODcyLDYwLjcwNCwzODQuNDE2LDQ4LDM1NC40NjQsNDhjLTU4LjExMiwwLTEwNC44OTYsNDcuMTY4LTEwNC44OTYsMTA0Ljk5MiAgYzAsOC4zMiwwLjcwNCwxNi4zMiwyLjQzMiwyMy45MzZjLTg3LjI2NC00LjI1Ni0xNjQuNDgtNDYuMDgtMjE2LjM1Mi0xMDkuNzkyYy05LjA1NiwxNS43MTItMTQuMzY4LDMzLjY5Ni0xNC4zNjgsNTMuMDU2ICBjMCwzNi4zNTIsMTguNzIsNjguNTc2LDQ2LjYyNCw4Ny4yMzJjLTE2Ljg2NC0wLjMyLTMzLjQwOC01LjIxNi00Ny40MjQtMTIuOTI4YzAsMC4zMiwwLDAuNzM2LDAsMS4xNTIgIGMwLDUxLjAwOCwzNi4zODQsOTMuMzc2LDg0LjA5NiwxMDMuMTM2Yy04LjU0NCwyLjMzNi0xNy44NTYsMy40NTYtMjcuNTIsMy40NTZjLTYuNzIsMC0xMy41MDQtMC4zODQtMTkuODcyLTEuNzkyICBjMTMuNiw0MS41NjgsNTIuMTkyLDcyLjEyOCw5OC4wOCw3My4xMmMtMzUuNzEyLDI3LjkzNi04MS4wNTYsNDQuNzY4LTEzMC4xNDQsNDQuNzY4Yy04LjYwOCwwLTE2Ljg2NC0wLjM4NC0yNS4xMi0xLjQ0ICBDNDYuNDk2LDQ0Ni44OCwxMDEuNiw0NjQsMTYxLjAyNCw0NjRjMTkzLjE1MiwwLDI5OC43NTItMTYwLDI5OC43NTItMjk4LjY4OGMwLTQuNjQtMC4xNi05LjEyLTAuMzg0LTEzLjU2OCAgQzQ4MC4yMjQsMTM2Ljk2LDQ5Ny43MjgsMTE4LjQ5Niw1MTIsOTcuMjQ4eiIvPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4K"),
+        auto;
+}
+
+/* ======================= Main Section - Cards ========================= */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    padding-bottom: 3em;
+    justify-content: center;
+    -webkit-justify-content: center;
+}
+
+.card {
+    border: 1px solid blue;
+    background-color: rgba(158, 217, 248, 0.1);
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-end; */
+    /* -webkit-align-items: flex-end; */
+    flex-grow: 0;
+    flex-basis: 300px;
+    min-height: 300px;
+    /* justify-content: center; */
+    /* text-align: center; */
+    padding: 0em;
+    margin: 32px;
+    border-radius: 0em;
+    transition: transform 0.5s;
+    text-overflow: clip;
+}
+
+.numbering {
+    display: flex;
+    display: -webkit-flex; /* Safari */
+    justify-content: space-between;
+    -webkit-justify-content: space-between; /* Safari 6.1+ */
+    align-items: center;
+    -webkit-align-items: center;
+    flex-direction: row;
+
+    font-size: 16px;
+    height: 36px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.title {
+    display: flex;
+    display: -webkit-flex;
+    /* align-items: center;
+    -webkit-align-items: center; */
+    text-align: center;
+    align-self: center;
+    margin: auto;
+
+    font-weight: 300;
+    font-size: 1.4em;
+}
+
+.title h2 {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-weight: 400;
+}
+
+.action-btns {
+    display: flex;
+    display: -webkit-flex; /* Safari */
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    justify-content: space-between;
+    -webkit-justify-content: space-between; /* Safari 6.1+ */
+    align-items: center;
+    -webkit-align-items: center; /* Safari 7.0+ */
+    margin-top: auto; /* ++++++++++++++++++++++++ IMP +++++++++++++++++++
+	Takes the remaining space and aligns the item at the bottom  */
+
+    font-size: 1em;
+    height: 100px;
+}
+
+.action-btns a {
+    text-align: center;
+    display: flex;
+    display: -webkit-flex; /* Safari */
+    flex-direction: column;
+    margin: 23px;
+    padding-right: 2px;
+
+    text-decoration: none;
+    color: #7b35ed;
+    font-size: 1.3em;
+}
+
+/* ======================= Footer ========================= */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #999999;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.quote {
+    margin: 4em auto 3em auto;
+    justify-content: center;
+    text-align: center;
+    /* max-width: 100%; */
+}
+
+#author {
+    font-weight: 600;
+}
+
+#social svg {
+    fill: #999999;
+}
+
+/* ******** Remember id is given to the "path" inside svg and not the svg */
+#social a svg:hover #email,
+#social a svg:hover #instagram,
+#social a svg:hover #twitter,
+#social a svg:hover #github {
+    fill: #7b35ed !important;
+}
+
+#social a svg #email,
+#social a svg #instagram,
+#social a svg #twitter,
+#social a svg #github {
+    transition: 200ms;
+    transition-timing-function: ease-in-out;
+    -webkit-transition: 200ms;
+    -webkit-transition-timing-function: ease-in-out;
+}
+
+#final-email {
+    color: #999999;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+/* ======================= Media Queries ========================= */
+
+@media screen and (max-width: 768px) {
+    .card {
+        /* For mobile phones: */
+        margin: 20px; /* Decrese side margins on Mobile */
+    }
+    .card:hover {
+        transform: scale(1.1);
+    }
+    #social {
+        width: 80%;
+        line-height: 30px;
+        /* border: 1px solid rgba(0, 0, 0, 0.1); */
+        margin: 3em auto;
+        text-decoration: none;
+        text-align: center;
+    }
+    #social span,
+    #social a {
+        display: block;
+        margin: 5%;
+    }
+}
+
+@media (min-width: 768px) {
+    /* Only for pc's */
+    .card:hover {
+        transform: scale(1.1); /* Scale up card on hover */
+    }
+
+    #social {
+        display: block;
+        width: 600px;
+        line-height: 30px;
+        /* border: 1px solid rgba(0, 0, 0, 0.1); */
+        margin: 3em auto;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    #social svg {
+        position: relative;
+        top: 10px;
+    }
+
+    #social a {
+        text-decoration: none;
+        /* padding: 5%; */
+        margin: 5%;
+    }
+}
+
+/* ======================= Animated Text Underling for preview and notes ========================= */
+
+.action-btns > a {
+    position: relative;
+}
+
+.action-btns > a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #7b35ed;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.action-btns > a:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+/* ======================= Customizing selection color ========================= */
+
+/* ::-moz-selection {
+    background-color: rgba(254, 74, 73,0.8);
+    color: #fff !important;
+}
+::selection {
+    background-color: rgba(254, 74, 73,0.8);
+    color: #fff !important;
+} */
+
+/* Adding disable functionality for a card */
+span.upcoming {
+    font-size: 0.5em;
+    color: #fff;
+    background: #fe4a49;
+    border-radius: 0.5em;
+    -moz-border-radius: 0.5em;
+    -webkit-border-radius: 0.5em;
+    display: inline-block;
+    line-height: 1.6em;
+    text-align: center;
+    padding: 0 0.4em;
+}
+
+.disable {
+    pointer-events: none;
+
+    /* for "disabled" effect */
+    opacity: 0.5;
+}
+
+.disable upcoming {
+    opacity: 1 !important;
+}
+
+/* ======================= 404 Styling ========================= */
+#error-404 {
+    font-size: 5em;
+}

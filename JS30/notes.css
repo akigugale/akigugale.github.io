@@ -1,0 +1,35 @@
+body {
+    width: 100%;
+    align-items: center;
+    line-height: 1.5;
+    letter-spacing: 0.3px;
+    font-family: "Open Sans", sans-serif;
+    background-color: rgb(248, 248, 248);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    margin: 2.5em auto 0.5em auto;
+    max-width: 960px;
+}
+
+#notes pre {
+    background-color: #eeeeee;
+    padding: 1em;
+    /* border: 1px solid black; */
+    border-radius: 3px;
+    overflow: auto;
+    font-size: 1.2em;
+    word-wrap: normal;
+    /* line-height: 1.45; */
+}
+
+@media screen and (max-width: 965px) {
+    .wrapper {
+        max-width: 85%;
+    }
+}
