@@ -53,25 +53,46 @@
 				</div>
 			</div>
 
-
-			<div class="card disable">
+            <div class="card">
 				<div class="numbering">
-					<span class="wording">Two</span>
 					<span class="numeric">02</span>
+					<span class="wording">Two</span>
 				</div>
 				<div class="title">
-					<h2>
-						<span class="upcoming">Coming Tomorrow</span>
-						<br>JS and CSS Clock</h2>
+					<h2>JS and CSS Clock</h2>
 				</div>
 				<div class="action-btns">
-					<a href="day02/" class="notes-button">
+					<a href="notes.html?day=02" class="notes-button">
 						<span>📝 notes</span>
 					</a>
 
 					&nbsp;
 
-					<a href="notes.html?day=02" class="notes-button">
+					<a href="day02/" class="notes-button">
+						<span>👀 preview</span>
+					</a>
+				</div>
+			</div>
+
+
+			<div class="card disable">
+				<div class="numbering">
+					<span class="numeric">03</span>
+					<span class="wording">Three</span>
+				</div>
+				<div class="title">
+					<h2>
+						<span class="upcoming">Coming Tomorrow</span>
+						<br>Playing with CSS Variables and JS</h2>
+				</div>
+				<div class="action-btns">
+					<a href="day03/" class="notes-button">
+						<span>📝 notes</span>
+					</a>
+
+					&nbsp;
+
+					<a href="notes.html?day=03" class="notes-button">
 						<span>👀 preview</span>
 					</a>
 				</div>
@@ -127,7 +148,6 @@
 
 
 	<script>
-
 		window.onload = function () {
 			var quotes = [
 				{
@@ -175,7 +195,6 @@
 			document.getElementById("text").innerHTML = quote.text;
 			document.getElementById("author").innerHTML = "   - " + quote.author;
 		};
-
 	</script>
 
 </body>
