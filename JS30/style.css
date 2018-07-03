@@ -106,6 +106,11 @@ footer {
     padding-right: 10px;
 }
 
+.numbering a {
+    text-decoration: none;
+    color: #7b35ed;
+}
+
 .title {
     display: flex;
     display: -webkit-flex;
